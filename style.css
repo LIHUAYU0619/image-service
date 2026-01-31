@@ -154,3 +154,13 @@ p {
   display: block;
   /* Show the overlay when active */
 }
+
+.centered-mix {
+  position: fixed;      /* 固定在页面上 */
+  left: 50%;            /* 水平居中参考点 */
+  top: 50%;             /* 垂直居中参考点 */
+  transform: translate(-50%, -50%); /* 真正居中 */
+  text-align: center;   /* 文本居中对齐 */
+  font-size: 14px;      /* 可以调整大小 */
+  z-index: 9999;        /* 保证在最上层显示 */
+}
